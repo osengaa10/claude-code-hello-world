@@ -18,7 +18,7 @@ require('dotenv').config({ path: path.join(__dirname, '../.env.local') });
 // Configuration
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 const CONTENT_DIR = path.join(__dirname, '../content');
-const KEYWORDS_CSV = path.join(__dirname, '../data/keywords.csv');
+const KEYWORDS_CSV = path.join(__dirname, '../data/expanded-keywords.csv');
 
 // Initialize OpenAI
 const openai = new OpenAI({
@@ -66,10 +66,10 @@ async function loadKeywords() {
 // Create sample keyword file
 function createSampleKeywordFile() {
   const sampleData = `keyword,search_volume,difficulty,category,intent,products
-"best portable power station 2024",2400,45,power-stations,commercial,"Jackery Explorer 300;Jackery Explorer 500;Goal Zero Yeti 400"
+"best portable power station 2025",2400,45,power-stations,commercial,"Jackery Explorer 300;Jackery Explorer 500;Goal Zero Yeti 400"
 "jackery 300 vs 500 comparison",890,35,power-stations,commercial,"Jackery Explorer 300;Jackery Explorer 500"
 "portable solar generator reviews",1200,40,power-stations,informational,"EcoFlow River 2;Bluetti AC200MAX;Goal Zero Yeti 1000"
-"best budget power bank 2024",3200,50,power-banks,commercial,"Anker PowerCore 10000;RAVPower 20000;Aukey 10000mAh"
+"best budget power bank 2025",3200,50,power-banks,commercial,"Anker PowerCore 10000;RAVPower 20000;Aukey 10000mAh"
 "power station for camping",1800,42,power-stations,commercial,"Jackery Explorer 500;Goal Zero Yeti 400;EcoFlow River 2"`;
   
   fs.writeFileSync(KEYWORDS_CSV, sampleData);
@@ -205,6 +205,18 @@ async function main() {
     console.log(`Processing ${keywordsToProcess.length} keywords...`);
     
     for (const keywordData of keywordsToProcess) {
+      // Check if file already exists
+      const slug = keywordData.keyword.toLowerCase()
+        .replace(/[^a-z0-9\s-]/g, '')
+        .replace(/\s+/g, '-')
+        .replace(/-+/g, '-');
+      const filePath = path.join(CONTENT_DIR, `${slug}.mdx`);
+      
+      if (fs.existsSync(filePath)) {
+        console.log(`⏭ Skipping existing article: ${keywordData.keyword}`);
+        continue;
+      }
+      
       console.log(`Generating article for: ${keywordData.keyword}`);
       
       try {
@@ -214,14 +226,14 @@ async function main() {
           keywordData.category
         );
         
-        const filePath = createMDXFile(
+        const createdFilePath = createMDXFile(
           keywordData.keyword,
           content,
           keywordData.category,
           keywordData.products
         );
         
-        console.log(`✓ Generated: ${path.basename(filePath)}`);
+        console.log(`✓ Generated: ${path.basename(createdFilePath)}`);
         
         // Add delay to respect API rate limits
         await new Promise(resolve => setTimeout(resolve, 2000));

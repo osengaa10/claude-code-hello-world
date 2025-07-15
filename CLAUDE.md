@@ -32,6 +32,8 @@ A static, SEO-optimized affiliate content site targeting low-competition long-ta
 
 ## Development Commands
 
+- **Troubleshooting**: if you get this error: You are using Node.js 18.15.0. For Next.js, Node.js version, then run `nvm use 22.12.0 ` before running npm commands.
+
 - **Start development server**: `npm run dev` (uses Turbopack for faster builds)
 - **Build for production**: `npm run build`
 - **Start production server**: `npm start`

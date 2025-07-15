@@ -74,7 +74,7 @@ For each product:
 - Call to action
 
 ## SEO Optimization
-- Title: "Product A vs Product B: Which [Category] is Better in 2024?"
+- Title: "Product A vs Product B: Which [Category] is Better in 2025?"
 - H1 matches title exactly
 - H2s use comparison keywords
 - Include both product names throughout

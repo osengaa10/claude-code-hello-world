@@ -1,6 +1,6 @@
 # Buying Guide Template
 
-## Article Structure for "Best [Category] 2024" Articles
+## Article Structure for "Best [Category] 2025" Articles
 
 ### 1. Introduction (200-300 words)
 - Category overview and importance
@@ -95,8 +95,8 @@
 - Call to action
 
 ## SEO Strategy
-- Title: "Best [Category] 2024: Top X [Products] Reviewed"
-- Target keyword: "best [category] 2024"
+- Title: "Best [Category] 2025: Top X [Products] Reviewed"
+- Target keyword: "best [category] 2025"
 - Long-tail keywords: "best [category] for [use case]"
 - Internal linking to individual reviews
 - Schema markup for product reviews

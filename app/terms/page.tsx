@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 };
 
 export default function Terms() {
-  const lastUpdated = "January 1, 2024";
+  const lastUpdated = "January 1, 2025";
 
   return (
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

@@ -46,57 +46,59 @@ export default function ProductBox({
   };
 
   return (
-    <div className="bg-white rounded-lg shadow-md border border-gray-200 p-6 max-w-sm">
+    <div className="rounded-2xl shadow-soft border border-primary-600 p-6 max-w-sm hover:shadow-medium transition-all duration-300 animate-fade-in product-box">
       {badge && (
-        <div className="inline-block bg-red-500 text-white text-xs px-2 py-1 rounded mb-4">
+        <div className="inline-flex items-center bg-gradient-to-r from-warning-500 to-warning-600 text-white text-xs px-3 py-1.5 rounded-full mb-4 font-medium">
           {badge}
         </div>
       )}
       
-      <div className="text-center mb-4">
-        <img 
-          src={image} 
-          alt={name} 
-          className="w-full h-48 object-cover rounded-md mb-4"
-        />
-        <h3 className="text-lg font-semibold text-gray-900 mb-2">{name}</h3>
+      <div className="text-center mb-6">
+        <div className="relative overflow-hidden rounded-xl mb-4 bg-primary-50">
+          <img 
+            src={image} 
+            alt={name} 
+            className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
+          />
+        </div>
+        <h3 className="text-lg font-semibold text-primary-800 mb-3 leading-tight">{name}</h3>
         
         {rating > 0 && (
-          <div className="flex items-center justify-center mb-2">
+          <div className="flex items-center justify-center mb-3">
             <div className="flex">{renderStars(rating)}</div>
             {reviewCount > 0 && (
-              <span className="text-sm text-gray-500 ml-2">({reviewCount} reviews)</span>
+              <span className="text-sm text-primary-500 ml-2">({reviewCount} reviews)</span>
             )}
           </div>
         )}
       </div>
 
-      <div className="mb-4">
-        <div className="flex items-center justify-center mb-3">
-          <span className="text-2xl font-bold text-green-600">{price}</span>
+      <div className="mb-6">
+        <div className="flex items-center justify-center mb-4">
+          <span className="text-3xl font-bold text-success-600">{price}</span>
           {originalPrice && (
-            <span className="text-lg text-gray-500 line-through ml-2">{originalPrice}</span>
+            <span className="text-lg text-primary-500 line-through ml-3">{originalPrice}</span>
           )}
         </div>
       </div>
 
-      <ul className="text-sm text-gray-600 mb-6 space-y-1">
+      <ul className="text-sm text-primary-600 mb-6 space-y-2">
         {features.map((feature, index) => (
           <li key={index} className="flex items-start">
-            <span className="text-green-500 mr-2">✓</span>
-            {feature}
+            <span className="text-success-500 mr-3 mt-0.5 text-base">✓</span>
+            <span className="leading-relaxed">{feature}</span>
           </li>
         ))}
       </ul>
 
       <button
         onClick={handleClick}
-        className="block w-full bg-orange-500 hover:bg-orange-600 text-white font-semibold py-3 px-4 rounded-md text-center transition-colors duration-200"
+        className="block w-full bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white font-semibold py-3.5 px-4 rounded-xl text-center transition-all duration-200 transform hover:scale-[1.02] active:scale-[0.98] shadow-soft hover:shadow-medium"
       >
         Check Price on Amazon
       </button>
       
-      <p className="text-xs text-gray-500 text-center mt-2">
+      <p className="text-xs text-primary-500 text-center mt-3 leading-relaxed">
         *Price may vary. Last updated: {new Date().toLocaleDateString()}
       </p>
     </div>

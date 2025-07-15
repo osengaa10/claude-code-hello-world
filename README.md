@@ -66,7 +66,7 @@ A static, SEO-optimized affiliate content site built with Next.js 15, targeting 
    title: "Product Comparison Title"
    description: "SEO-optimized description"
    slug: "product-comparison-slug"
-   date: "2024-01-15"
+   date: "2025-01-15"
    category: "power-stations"
    tags: ["product1", "product2", "comparison"]
    keywords: "target keyword, related keywords"
@@ -136,7 +136,7 @@ node scripts/generate-content.js --category power-stations --limit 3
 1. Add keywords to `data/keywords.csv`:
    ```csv
    keyword,search_volume,difficulty,category,intent,products
-   "best power station 2024",2400,45,power-stations,commercial,"Jackery 300;Goal Zero Yeti"
+   "best power station 2025",2400,45,power-stations,commercial,"Jackery 300;Goal Zero Yeti"
    ```
 
 2. Run content generation:

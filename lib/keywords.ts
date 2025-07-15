@@ -73,14 +73,14 @@ export async function loadKeywordsFromCSV(): Promise<KeywordData[]> {
 // Create sample keyword file
 function createSampleKeywordFile(): void {
   const sampleData = `keyword,search_volume,difficulty,category,intent,products,competition,cpc,trend,seasonality,last_updated
-"best portable power station 2024",2400,45,power-stations,commercial,"Jackery Explorer 300;Jackery Explorer 500;Goal Zero Yeti 400",medium,2.50,rising,false,2024-01-15
-"jackery 300 vs 500 comparison",890,35,power-stations,commercial,"Jackery Explorer 300;Jackery Explorer 500",low,1.80,stable,false,2024-01-15
-"portable solar generator reviews",1200,40,power-stations,informational,"EcoFlow River 2;Bluetti AC200MAX;Goal Zero Yeti 1000",medium,2.20,rising,false,2024-01-15
-"best budget power bank 2024",3200,50,power-banks,commercial,"Anker PowerCore 10000;RAVPower 20000;Aukey 10000mAh",high,1.90,stable,false,2024-01-15
-"power station for camping",1800,42,power-stations,commercial,"Jackery Explorer 500;Goal Zero Yeti 400;EcoFlow River 2",medium,2.10,rising,true,2024-01-15
-"solar power bank review",950,30,power-banks,informational,"Anker PowerCore Solar;RAVPower Solar;Goal Zero Nomad",low,1.60,stable,true,2024-01-15
-"best laptop power bank",2100,38,power-banks,commercial,"Anker PowerCore+ 26800;RAVPower 20000;Omni 20+",medium,2.00,stable,false,2024-01-15
-"portable generator vs power station",760,25,power-stations,informational,"Honda EU2200i;Jackery Explorer 1000;Goal Zero Yeti 1500X",low,1.70,rising,false,2024-01-15`;
+"best portable power station 2025",2400,45,power-stations,commercial,"Jackery Explorer 300;Jackery Explorer 500;Goal Zero Yeti 400",medium,2.50,rising,false,2025-01-15
+"jackery 300 vs 500 comparison",890,35,power-stations,commercial,"Jackery Explorer 300;Jackery Explorer 500",low,1.80,stable,false,2025-01-15
+"portable solar generator reviews",1200,40,power-stations,informational,"EcoFlow River 2;Bluetti AC200MAX;Goal Zero Yeti 1000",medium,2.20,rising,false,2025-01-15
+"best budget power bank 2025",3200,50,power-banks,commercial,"Anker PowerCore 10000;RAVPower 20000;Aukey 10000mAh",high,1.90,stable,false,2025-01-15
+"power station for camping",1800,42,power-stations,commercial,"Jackery Explorer 500;Goal Zero Yeti 400;EcoFlow River 2",medium,2.10,rising,true,2025-01-15
+"solar power bank review",950,30,power-banks,informational,"Anker PowerCore Solar;RAVPower Solar;Goal Zero Nomad",low,1.60,stable,true,2025-01-15
+"best laptop power bank",2100,38,power-banks,commercial,"Anker PowerCore+ 26800;RAVPower 20000;Omni 20+",medium,2.00,stable,false,2025-01-15
+"portable generator vs power station",760,25,power-stations,informational,"Honda EU2200i;Jackery Explorer 1000;Goal Zero Yeti 1500X",low,1.70,rising,false,2025-01-15`;
   
   const dataDir = path.dirname(KEYWORDS_CSV_PATH);
   if (!fs.existsSync(dataDir)) {

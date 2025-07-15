@@ -25,7 +25,113 @@ export interface ComparisonTableProps {
   source?: string;
 }
 
-export default function ComparisonTable({
+// Simple comparison table for MDX content
+export interface SimpleComparisonProduct {
+  name: string;
+  price: string;
+  capacity?: string;
+  weight?: string;
+  ports?: string;
+  rating?: number;
+  pros?: string[];
+  cons?: string[];
+}
+
+export interface SimpleComparisonTableProps {
+  products: SimpleComparisonProduct[];
+}
+
+export function ComparisonTable({ products }: SimpleComparisonTableProps) {
+  const renderStars = (rating: number) => {
+    return Array.from({ length: 5 }, (_, i) => (
+      <span key={i} className={`text-sm ${i < rating ? 'text-yellow-400' : 'text-gray-300'}`}>
+        ★
+      </span>
+    ));
+  };
+
+  return (
+    <div className="overflow-x-auto rounded-lg shadow-md border border-primary-600 my-8 comparison-table">
+      <table className="w-full">
+        <thead>
+          <tr className="bg-primary-700">
+            <th className="px-6 py-4 text-left text-sm font-medium text-white">
+              Product
+            </th>
+            <th className="px-6 py-4 text-center text-sm font-medium text-white">
+              Price
+            </th>
+            <th className="px-6 py-4 text-center text-sm font-medium text-white">
+              Capacity
+            </th>
+            <th className="px-6 py-4 text-center text-sm font-medium text-white">
+              Weight
+            </th>
+            <th className="px-6 py-4 text-center text-sm font-medium text-white">
+              Ports
+            </th>
+            <th className="px-6 py-4 text-center text-sm font-medium text-white">
+              Rating
+            </th>
+            <th className="px-6 py-4 text-center text-sm font-medium text-white">
+              Pros & Cons
+            </th>
+          </tr>
+        </thead>
+        <tbody className="divide-y divide-primary-600">
+          {products.map((product, index) => (
+            <tr key={index} className={index % 2 === 0 ? 'bg-primary-800/20' : 'bg-primary-800/40'}>
+              <td className="px-6 py-4 text-sm font-medium text-white">
+                {product.name}
+              </td>
+              <td className="px-6 py-4 text-center text-sm font-bold text-green-400">
+                {product.price}
+              </td>
+              <td className="px-6 py-4 text-center text-sm text-gray-200 font-medium">
+                {product.capacity}
+              </td>
+              <td className="px-6 py-4 text-center text-sm text-gray-200 font-medium">
+                {product.weight}
+              </td>
+              <td className="px-6 py-4 text-center text-sm text-gray-200 font-medium">
+                {product.ports}
+              </td>
+              <td className="px-6 py-4 text-center">
+                {product.rating && (
+                  <div className="flex justify-center">{renderStars(product.rating)}</div>
+                )}
+              </td>
+              <td className="px-6 py-4 text-xs">
+                {product.pros && (
+                  <div className="mb-2">
+                    <div className="text-green-400 font-semibold mb-1">Pros:</div>
+                    <ul className="text-gray-200 space-y-1">
+                      {product.pros.map((pro, i) => (
+                        <li key={i}>• {pro}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+                {product.cons && (
+                  <div>
+                    <div className="text-red-400 font-semibold mb-1">Cons:</div>
+                    <ul className="text-gray-200 space-y-1">
+                      {product.cons.map((con, i) => (
+                        <li key={i}>• {con}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+export default function AdvancedComparisonTable({
   products,
   features,
   source = 'comparison-table',
