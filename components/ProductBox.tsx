@@ -1,6 +1,6 @@
 'use client';
 
-import { useAffiliateTracking } from '@/lib/affiliate-tracking';
+import { getProductAmazonLink } from '@/lib/amazon';
 
 export interface ProductBoxProps {
   name: string;
@@ -8,13 +8,11 @@ export interface ProductBoxProps {
   originalPrice?: string;
   image: string;
   features: string[];
-  affiliateUrl: string;
+  asin?: string;
   rating?: number;
   reviewCount?: number;
   badge?: string;
-  source?: string;
-  category?: string;
-  productId?: string;
+  affiliateUrl?: string; // Optional override for custom links
 }
 
 export default function ProductBox({
@@ -23,18 +21,28 @@ export default function ProductBox({
   originalPrice,
   image,
   features,
-  affiliateUrl,
+  asin,
   rating = 0,
   reviewCount = 0,
   badge,
-  source = 'product-box',
-  category = 'product',
-  productId,
+  affiliateUrl,
 }: ProductBoxProps) {
-  const { trackClick } = useAffiliateTracking();
+  const amazonLink = affiliateUrl || (asin 
+    ? `https://amazon.com/dp/${asin}?tag=unbiasedtechr-20`
+    : getProductAmazonLink(name));
 
   const handleClick = () => {
-    trackClick(name, affiliateUrl, source, category, price, productId);
+    // Track affiliate click for analytics
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      (window as any).gtag('event', 'affiliate_click', {
+        event_category: 'engagement',
+        event_label: name,
+        affiliate_network: 'amazon',
+        value: parseFloat(price.replace(/[^0-9.]/g, ''))
+      });
+    }
+    
+    window.open(amazonLink, '_blank', 'noopener,noreferrer');
   };
 
   const renderStars = (rating: number) => {

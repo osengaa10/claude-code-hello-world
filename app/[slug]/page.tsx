@@ -4,6 +4,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 import ProductBox from "@/components/ProductBox";
 import { ComparisonTable } from "@/components/ComparisonTable";
+import AmazonButton from "@/components/AmazonButton";
+import ProductLink from "@/components/ProductLink";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -78,6 +80,8 @@ export default async function PostPage({ params }: Props) {
   const mdxComponents = {
     ProductBox,
     ComparisonTable,
+    AmazonButton,
+    ProductLink,
     // Add custom styling for common elements
     h1: (props: any) => <h1 className="text-4xl font-bold text-white mb-6 leading-tight" {...props} />,
     h2: (props: any) => <h2 className="text-3xl font-semibold text-white mt-12 mb-6 pb-2 border-b border-primary-600" {...props} />,
