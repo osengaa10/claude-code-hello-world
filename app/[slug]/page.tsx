@@ -6,6 +6,10 @@ import ProductBox from "@/components/ProductBox";
 import { ComparisonTable } from "@/components/ComparisonTable";
 import AmazonButton from "@/components/AmazonButton";
 import ProductLink from "@/components/ProductLink";
+import OptimizedImage from "@/components/OptimizedImage";
+import FAQSchema from "@/components/FAQSchema";
+import Breadcrumb from "@/components/Breadcrumb";
+import ProductReviewSchema from "@/components/ProductReviewSchema";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -48,6 +52,14 @@ export default async function PostPage({ params }: Props) {
   const { content, data } = getPostBySlug(slug);
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://your-domain.com";
   
+  // Generate breadcrumb items
+  const breadcrumbItems = [
+    { name: 'Home', href: '/' },
+    { name: 'Reviews', href: '/' },
+    ...(data.category ? [{ name: data.category.charAt(0).toUpperCase() + data.category.slice(1), href: `/category/${data.category}` }] : []),
+    { name: data.title, href: `/${slug}` }
+  ];
+  
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -82,6 +94,19 @@ export default async function PostPage({ params }: Props) {
     ComparisonTable,
     AmazonButton,
     ProductLink,
+    OptimizedImage,
+    FAQSchema,
+    ProductReviewSchema,
+    img: (props: any) => (
+      <OptimizedImage
+        src={props.src}
+        alt={props.alt || 'Product image'}
+        width={props.width || 800}
+        height={props.height || 400}
+        className="mx-auto"
+        {...props}
+      />
+    ),
     // Add custom styling for common elements
     h1: (props: any) => <h1 className="text-4xl font-bold text-white mb-6 leading-tight" {...props} />,
     h2: (props: any) => <h2 className="text-3xl font-semibold text-white mt-12 mb-6 pb-2 border-b border-primary-600" {...props} />,
@@ -105,17 +130,7 @@ export default async function PostPage({ params }: Props) {
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Article Header */}
         <header className="mb-12">
-          <div className="mb-6">
-            <Link 
-              href="/" 
-              className="inline-flex items-center text-accent-600 hover:text-accent-700 font-medium transition-colors"
-            >
-              <svg className="h-4 w-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-              </svg>
-              Back to Reviews
-            </Link>
-          </div>
+          <Breadcrumb items={breadcrumbItems} />
           
           <h1 className="text-4xl md:text-5xl font-bold text-primary-800 mb-6 leading-tight">
             {data.title}
