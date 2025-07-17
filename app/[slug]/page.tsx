@@ -52,6 +52,11 @@ export default async function PostPage({ params }: Props) {
   const { content, data } = getPostBySlug(slug);
   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || "https://your-domain.com";
   
+  // Ensure content is valid
+  if (!content || typeof content !== 'string') {
+    throw new Error(`Invalid content for post: ${slug}`);
+  }
+  
   // Generate breadcrumb items
   const breadcrumbItems = [
     { name: 'Home', href: '/' },
@@ -159,7 +164,7 @@ export default async function PostPage({ params }: Props) {
               <svg className="h-4 w-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              {Math.ceil(content.split(' ').length / 200)} min read
+              {Math.ceil((content || '').split(' ').length / 200)} min read
             </div>
           </div>
 

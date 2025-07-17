@@ -9,6 +9,11 @@ const AFFILIATE_TAG = 'unbiasedtechr-20';
  * Generate Amazon search link with affiliate tag
  */
 export function generateAmazonSearchLink(productName: string): string {
+  if (!productName || typeof productName !== 'string') {
+    console.error('Invalid productName passed to generateAmazonSearchLink:', productName);
+    return `https://amazon.com/?tag=${AFFILIATE_TAG}`;
+  }
+  
   const searchQuery = productName.replace(/\s+/g, '+');
   return `https://amazon.com/s?k=${encodeURIComponent(searchQuery)}&tag=${AFFILIATE_TAG}`;
 }
@@ -24,6 +29,11 @@ export function generateAmazonProductLink(asin: string): string {
  * Generate Amazon link with fallback to search if no ASIN provided
  */
 export function generateAmazonLink(productName: string, asin?: string): string {
+  if (!productName || typeof productName !== 'string') {
+    console.error('Invalid productName passed to generateAmazonLink:', productName);
+    return `https://amazon.com/?tag=${AFFILIATE_TAG}`;
+  }
+  
   if (asin) {
     return generateAmazonProductLink(asin);
   }
@@ -101,12 +111,27 @@ export const PRODUCT_ASINS: Record<string, string> = {
   'Nest Learning': 'B0131RG6VK',
   'Ecobee SmartThermostat': 'B07NQT85FC',
   'Honeywell T9': 'B07BS2XHVD',
+  
+  // New Article Products - Earbuds
+  'Sony WF-C500': 'B094C4VDJZ',
+  'Jabra Elite 3': 'B08YRLWZLQ',
+  'JLab Audio JBuds Air': 'B07TQPZQ1R',
+  
+  // New Article Products - Meditation
+  'Hugger Mugger Zafu Meditation Cushion': 'B0000AXD9Y',
+  'Peace Yoga Crescent Meditation Cushion': 'B07QMQY9R8',
+  'Florensi Meditation Cushion Set': 'B083TQHG8X',
 };
 
 /**
  * Get Amazon link for a product
  */
 export function getProductAmazonLink(productName: string): string {
+  if (!productName || typeof productName !== 'string') {
+    console.error('Invalid productName passed to getProductAmazonLink:', productName);
+    return `https://amazon.com/?tag=${AFFILIATE_TAG}`;
+  }
+  
   const asin = PRODUCT_ASINS[productName];
   return generateAmazonLink(productName, asin);
 }
