@@ -113,9 +113,9 @@ export const PRODUCT_ASINS: Record<string, string> = {
   'Honeywell T9': 'B07BS2XHVD',
   
   // New Article Products - Earbuds
-  'Sony WF-C500': 'B094C4VDJZ',
-  'Jabra Elite 3': 'B08YRLWZLQ',
-  'JLab Audio JBuds Air': 'B07TQPZQ1R',
+  'Sony WF-C500': 'B09CFP6J6D', // Verified: Black variant on Amazon
+  'Jabra Elite 3': 'B09B468VKX', // Verified: Navy variant on Amazon
+  'JLab Audio JBuds Air': 'B07HGL3J31', // Verified: True Wireless Signature Bluetooth Earbuds
   
   // New Article Products - Meditation
   'Hugger Mugger Zafu Meditation Cushion': 'B0000AXD9Y',
