@@ -5,21 +5,27 @@ import { getProductAmazonLink } from '@/lib/amazon';
 interface AmazonButtonProps {
   productName: string;
   asin?: string;
+  affiliateUrl?: string;
   variant?: 'primary' | 'secondary' | 'outline';
   size?: 'sm' | 'md' | 'lg';
   className?: string;
+  showProductName?: boolean;
+  buttonText?: string;
 }
 
 export default function AmazonButton({ 
   productName, 
   asin,
+  affiliateUrl,
   variant = 'primary',
   size = 'md',
-  className = ''
+  className = '',
+  showProductName = true,
+  buttonText
 }: AmazonButtonProps) {
-  const amazonLink = asin 
+  const amazonLink = affiliateUrl || (asin 
     ? `https://amazon.com/dp/${asin}?tag=unbiasedtechr-20`
-    : getProductAmazonLink(productName);
+    : getProductAmazonLink(productName));
 
   const handleClick = () => {
     // Track affiliate click for analytics
@@ -63,7 +69,7 @@ export default function AmazonButton({
         <path d="M.045 18.02c.072-.116.187-.18.315-.18.063 0 .124.013.18.036 4.95 1.963 10.664 3.016 17.13 3.016 3.14 0 6.357-.384 9.638-1.152.525-.12 1.056.205 1.176.73.12.525-.205 1.056-.73 1.176-3.453.808-6.897 1.218-10.326 1.218-6.792 0-12.84-1.117-18.084-3.346-.48-.204-.707-.759-.503-1.239.072-.168.18-.315.315-.425l-.111-.834zm20.06-9.925c-.525-.12-1.056.205-1.176.73-.808 3.453-1.218 6.897-1.218 10.326 0 6.792 1.117 12.84 3.346 18.084.204.48.759.707 1.239.503.168-.072.315-.18.425-.315l.834.111c.116-.072.18-.187.18-.315 0-.063-.013-.124-.036-.18-1.963-4.95-3.016-10.664-3.016-17.13 0-3.14.384-6.357 1.152-9.638.12-.525-.205-1.056-.73-1.176z"/>
         <path d="M12.5 2L3 7l9.5 5L22 7l-9.5-5zM12.5 14.5L3 9.5v6l9.5 5 9.5-5v-6l-9.5 5z"/>
       </svg>
-      Buy on Amazon
+      {buttonText || (showProductName ? `Buy ${productName}` : 'Buy on Amazon')}
     </button>
   );
 }

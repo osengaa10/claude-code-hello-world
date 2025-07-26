@@ -1,0 +1,1936 @@
+{
+  "summary": {
+    "totalProducts": 99,
+    "totalUsages": 124,
+    "productsWithAsins": 36,
+    "productsNeedingAsins": 63,
+    "missingFromCsv": 42,
+    "articlesWithProducts": 35
+  },
+  "productsNeedingAsins": [
+    {
+      "productName": "Steelcase Leap",
+      "usageCount": 2,
+      "files": [
+        "content/ergonomic-office-chair-review.mdx",
+        "content/home-office-setup-guide.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Herman Miller Aeron",
+      "usageCount": 2,
+      "files": [
+        "content/ergonomic-office-chair-review.mdx",
+        "content/home-office-setup-guide.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Yamaha YAS-109",
+      "usageCount": 1,
+      "files": [
+        "content/best-budget-soundbar.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Polk Audio Signa S2",
+      "usageCount": 1,
+      "files": [
+        "content/best-budget-soundbar.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "TCL Alto 6+",
+      "usageCount": 1,
+      "files": [
+        "content/best-budget-soundbar.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Corsair MM300",
+      "usageCount": 1,
+      "files": [
+        "content/best-gaming-mouse-pad.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "SteelSeries QcK",
+      "usageCount": 1,
+      "files": [
+        "content/best-gaming-mouse-pad.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Razer Goliathus",
+      "usageCount": 1,
+      "files": [
+        "content/best-gaming-mouse-pad.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "OtterBox Defender",
+      "usageCount": 1,
+      "files": [
+        "content/best-phone-case-2025.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Spigen Tough Armor",
+      "usageCount": 1,
+      "files": [
+        "content/best-phone-case-2025.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Peak Design Mobile",
+      "usageCount": 1,
+      "files": [
+        "content/best-phone-case-2025.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Logitech C920",
+      "usageCount": 1,
+      "files": [
+        "content/best-webcam-for-streaming.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Razer Kiyo",
+      "usageCount": 1,
+      "files": [
+        "content/best-webcam-for-streaming.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Elgato Facecam",
+      "usageCount": 1,
+      "files": [
+        "content/best-webcam-for-streaming.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Xiaomi Mi M365",
+      "usageCount": 1,
+      "files": [
+        "content/electric-scooter-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Segway Ninebot ES2",
+      "usageCount": 1,
+      "files": [
+        "content/electric-scooter-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Razor E Prime III",
+      "usageCount": 1,
+      "files": [
+        "content/electric-scooter-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Oral-B Pro 1000",
+      "usageCount": 1,
+      "files": [
+        "content/electric-toothbrush-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Philips Sonicare",
+      "usageCount": 1,
+      "files": [
+        "content/electric-toothbrush-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Fairywill Sonic",
+      "usageCount": 1,
+      "files": [
+        "content/electric-toothbrush-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Humanscale Freedom",
+      "usageCount": 1,
+      "files": [
+        "content/ergonomic-office-chair-review.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Fitbit Charge 5",
+      "usageCount": 1,
+      "files": [
+        "content/fitness-tracker-vs-smartwatch.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Apple Watch SE",
+      "usageCount": 1,
+      "files": [
+        "content/fitness-tracker-vs-smartwatch.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Garmin Vivosmart 4",
+      "usageCount": 1,
+      "files": [
+        "content/fitness-tracker-vs-smartwatch.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "IKEA Markus",
+      "usageCount": 1,
+      "files": [
+        "content/home-office-setup-guide.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "portable power",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "camping",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "battery",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Jackery",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "power station",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Redragon K552",
+      "usageCount": 1,
+      "files": [
+        "content/mechanical-keyboard-under-50.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Corsair K63",
+      "usageCount": 1,
+      "files": [
+        "content/mechanical-keyboard-under-50.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Logitech G413",
+      "usageCount": 1,
+      "files": [
+        "content/mechanical-keyboard-under-50.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Honda EU2200i",
+      "usageCount": 1,
+      "files": [
+        "content/portable-generator-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Generac GP3000i",
+      "usageCount": 1,
+      "files": [
+        "content/portable-generator-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "WEN 56380i",
+      "usageCount": 1,
+      "files": [
+        "content/portable-generator-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "WD My Passport",
+      "usageCount": 1,
+      "files": [
+        "content/portable-hard-drive-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Seagate Backup Plus",
+      "usageCount": 1,
+      "files": [
+        "content/portable-hard-drive-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Toshiba Canvio Advance",
+      "usageCount": 1,
+      "files": [
+        "content/portable-hard-drive-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "ASUS ZenScreen MB16AC",
+      "usageCount": 1,
+      "files": [
+        "content/portable-monitor-for-laptop.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "HP E14 G4",
+      "usageCount": 1,
+      "files": [
+        "content/portable-monitor-for-laptop.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Lepow Z1",
+      "usageCount": 1,
+      "files": [
+        "content/portable-monitor-for-laptop.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "HAPPRUN H1",
+      "usageCount": 1,
+      "files": [
+        "content/portable-projector-review.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "PVO Mini Projector",
+      "usageCount": 1,
+      "files": [
+        "content/portable-projector-review.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Vamvo L4600",
+      "usageCount": 1,
+      "files": [
+        "content/portable-projector-review.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Ring Video Doorbell",
+      "usageCount": 1,
+      "files": [
+        "content/smart-doorbell-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Nest Hello",
+      "usageCount": 1,
+      "files": [
+        "content/smart-doorbell-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Arlo Video Doorbell",
+      "usageCount": 1,
+      "files": [
+        "content/smart-doorbell-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Amazon Echo Dot",
+      "usageCount": 1,
+      "files": [
+        "content/smart-home-starter-kit.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Google Nest Mini",
+      "usageCount": 1,
+      "files": [
+        "content/smart-home-starter-kit.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Philips Hue Starter",
+      "usageCount": 1,
+      "files": [
+        "content/smart-home-starter-kit.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Audio-Technica ATR2100x",
+      "usageCount": 1,
+      "files": [
+        "content/usb-microphone-for-podcasting.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Blue Yeti",
+      "usageCount": 1,
+      "files": [
+        "content/usb-microphone-for-podcasting.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Rode PodMic",
+      "usageCount": 1,
+      "files": [
+        "content/usb-microphone-for-podcasting.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Belkin Boost Up",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-charging-pad-review.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Anker PowerWave",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-charging-pad-review.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Samsung Wireless Charger",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-charging-pad-review.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Logitech MK545",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-keyboard-and-mouse-combo.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Microsoft Sculpt",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-keyboard-and-mouse-combo.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Corsair K63 Wireless",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-keyboard-and-mouse-combo.mdx"
+      ],
+      "csvStatus": "missing",
+      "csvAsin": "none"
+    },
+    {
+      "productName": "Logitech G Pro X",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-mouse-for-gaming.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "Razer DeathAdder V3",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-mouse-for-gaming.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    },
+    {
+      "productName": "SteelSeries Rival 650",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-mouse-for-gaming.mdx"
+      ],
+      "csvStatus": "pending",
+      "csvAsin": "pending"
+    }
+  ],
+  "missingFromCsv": [
+    {
+      "productName": "Yamaha YAS-109",
+      "usageCount": 1,
+      "files": [
+        "content/best-budget-soundbar.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Polk Audio Signa S2",
+      "usageCount": 1,
+      "files": [
+        "content/best-budget-soundbar.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "TCL Alto 6+",
+      "usageCount": 1,
+      "files": [
+        "content/best-budget-soundbar.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "OtterBox Defender",
+      "usageCount": 1,
+      "files": [
+        "content/best-phone-case-2025.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Spigen Tough Armor",
+      "usageCount": 1,
+      "files": [
+        "content/best-phone-case-2025.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Peak Design Mobile",
+      "usageCount": 1,
+      "files": [
+        "content/best-phone-case-2025.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Xiaomi Mi M365",
+      "usageCount": 1,
+      "files": [
+        "content/electric-scooter-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Segway Ninebot ES2",
+      "usageCount": 1,
+      "files": [
+        "content/electric-scooter-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Razor E Prime III",
+      "usageCount": 1,
+      "files": [
+        "content/electric-scooter-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Oral-B Pro 1000",
+      "usageCount": 1,
+      "files": [
+        "content/electric-toothbrush-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Philips Sonicare",
+      "usageCount": 1,
+      "files": [
+        "content/electric-toothbrush-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "automotive"
+    },
+    {
+      "productName": "Fairywill Sonic",
+      "usageCount": 1,
+      "files": [
+        "content/electric-toothbrush-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Humanscale Freedom",
+      "usageCount": 1,
+      "files": [
+        "content/ergonomic-office-chair-review.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Fitbit Charge 5",
+      "usageCount": 1,
+      "files": [
+        "content/fitness-tracker-vs-smartwatch.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Apple Watch SE",
+      "usageCount": 1,
+      "files": [
+        "content/fitness-tracker-vs-smartwatch.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Garmin Vivosmart 4",
+      "usageCount": 1,
+      "files": [
+        "content/fitness-tracker-vs-smartwatch.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "smart-home"
+    },
+    {
+      "productName": "portable power",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "camping",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "battery",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "power"
+    },
+    {
+      "productName": "Jackery",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "power station",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Honda EU2200i",
+      "usageCount": 1,
+      "files": [
+        "content/portable-generator-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Generac GP3000i",
+      "usageCount": 1,
+      "files": [
+        "content/portable-generator-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "WEN 56380i",
+      "usageCount": 1,
+      "files": [
+        "content/portable-generator-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "WD My Passport",
+      "usageCount": 1,
+      "files": [
+        "content/portable-hard-drive-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Seagate Backup Plus",
+      "usageCount": 1,
+      "files": [
+        "content/portable-hard-drive-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Toshiba Canvio Advance",
+      "usageCount": 1,
+      "files": [
+        "content/portable-hard-drive-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "ASUS ZenScreen MB16AC",
+      "usageCount": 1,
+      "files": [
+        "content/portable-monitor-for-laptop.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "HP E14 G4",
+      "usageCount": 1,
+      "files": [
+        "content/portable-monitor-for-laptop.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Lepow Z1",
+      "usageCount": 1,
+      "files": [
+        "content/portable-monitor-for-laptop.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "HAPPRUN H1",
+      "usageCount": 1,
+      "files": [
+        "content/portable-projector-review.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "PVO Mini Projector",
+      "usageCount": 1,
+      "files": [
+        "content/portable-projector-review.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Vamvo L4600",
+      "usageCount": 1,
+      "files": [
+        "content/portable-projector-review.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Ring Video Doorbell",
+      "usageCount": 1,
+      "files": [
+        "content/smart-doorbell-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Nest Hello",
+      "usageCount": 1,
+      "files": [
+        "content/smart-doorbell-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Arlo Video Doorbell",
+      "usageCount": 1,
+      "files": [
+        "content/smart-doorbell-comparison.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Amazon Echo Dot",
+      "usageCount": 1,
+      "files": [
+        "content/smart-home-starter-kit.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Google Nest Mini",
+      "usageCount": 1,
+      "files": [
+        "content/smart-home-starter-kit.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Philips Hue Starter",
+      "usageCount": 1,
+      "files": [
+        "content/smart-home-starter-kit.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Logitech MK545",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-keyboard-and-mouse-combo.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Microsoft Sculpt",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-keyboard-and-mouse-combo.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    },
+    {
+      "productName": "Corsair K63 Wireless",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-keyboard-and-mouse-combo.mdx"
+      ],
+      "hasInlineAsin": false,
+      "suggestedCategory": "miscellaneous"
+    }
+  ],
+  "allProducts": [
+    {
+      "productName": "Anker PowerCore 10000",
+      "usageCount": 1,
+      "files": [
+        "content/best-budget-power-bank-2025.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "RAVPower 20000",
+      "usageCount": 1,
+      "files": [
+        "content/best-budget-power-bank-2025.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Aukey 10000mAh",
+      "usageCount": 1,
+      "files": [
+        "content/best-budget-power-bank-2025.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Yamaha YAS-109",
+      "usageCount": 1,
+      "files": [
+        "content/best-budget-soundbar.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Polk Audio Signa S2",
+      "usageCount": 1,
+      "files": [
+        "content/best-budget-soundbar.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "TCL Alto 6+",
+      "usageCount": 1,
+      "files": [
+        "content/best-budget-soundbar.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "ASUS VA24EHE 24-inch Monitor",
+      "usageCount": 2,
+      "files": [
+        "content/best-computer-monitor-small-desk.mdx",
+        "content/best-computer-monitor-small-desk.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "LG 24MK430H-B 24-Inch Monitor",
+      "usageCount": 2,
+      "files": [
+        "content/best-computer-monitor-small-desk.mdx",
+        "content/best-computer-monitor-small-desk.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Dell S2421DS 24-Inch QHD Monitor",
+      "usageCount": 2,
+      "files": [
+        "content/best-computer-monitor-small-desk.mdx",
+        "content/best-computer-monitor-small-desk.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Garmin Dash Cam 66W",
+      "usageCount": 1,
+      "files": [
+        "content/best-dash-cam-2025.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Nextbase 622GW",
+      "usageCount": 1,
+      "files": [
+        "content/best-dash-cam-2025.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Viofo A129 Pro Duo",
+      "usageCount": 1,
+      "files": [
+        "content/best-dash-cam-2025.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Sony WF-C500",
+      "usageCount": 2,
+      "files": [
+        "content/best-earbuds-small-ear-canals.mdx",
+        "content/best-earbuds-small-ear-canals.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Jabra Elite 3",
+      "usageCount": 2,
+      "files": [
+        "content/best-earbuds-small-ear-canals.mdx",
+        "content/best-earbuds-small-ear-canals.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "JLab Audio JBuds Air",
+      "usageCount": 2,
+      "files": [
+        "content/best-earbuds-small-ear-canals.mdx",
+        "content/best-earbuds-small-ear-canals.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Samsung T7",
+      "usageCount": 1,
+      "files": [
+        "content/best-external-ssd-2025.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "SanDisk Extreme Pro",
+      "usageCount": 1,
+      "files": [
+        "content/best-external-ssd-2025.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Crucial X8",
+      "usageCount": 1,
+      "files": [
+        "content/best-external-ssd-2025.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Corsair MM300",
+      "usageCount": 1,
+      "files": [
+        "content/best-gaming-mouse-pad.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "SteelSeries QcK",
+      "usageCount": 1,
+      "files": [
+        "content/best-gaming-mouse-pad.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Razer Goliathus",
+      "usageCount": 1,
+      "files": [
+        "content/best-gaming-mouse-pad.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Logitech MX Keys",
+      "usageCount": 2,
+      "files": [
+        "content/best-keyboard-quiet-typing.mdx",
+        "content/best-keyboard-quiet-typing.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Apple Magic Keyboard with Touch ID",
+      "usageCount": 2,
+      "files": [
+        "content/best-keyboard-quiet-typing.mdx",
+        "content/best-keyboard-quiet-typing.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Keychron K3 Low Profile",
+      "usageCount": 2,
+      "files": [
+        "content/best-keyboard-quiet-typing.mdx",
+        "content/best-keyboard-quiet-typing.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "OtterBox Defender",
+      "usageCount": 1,
+      "files": [
+        "content/best-phone-case-2025.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Spigen Tough Armor",
+      "usageCount": 1,
+      "files": [
+        "content/best-phone-case-2025.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Peak Design Mobile",
+      "usageCount": 1,
+      "files": [
+        "content/best-phone-case-2025.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Jackery Explorer 300",
+      "usageCount": 2,
+      "files": [
+        "content/best-portable-power-station-2025.mdx",
+        "content/jackery-300-vs-500-comparison.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Jackery Explorer 500",
+      "usageCount": 3,
+      "files": [
+        "content/best-portable-power-station-2025.mdx",
+        "content/jackery-300-vs-500-comparison.mdx",
+        "content/power-station-for-camping.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Goal Zero Yeti 400",
+      "usageCount": 2,
+      "files": [
+        "content/best-portable-power-station-2025.mdx",
+        "content/power-station-for-camping.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Nest Learning",
+      "usageCount": 1,
+      "files": [
+        "content/best-smart-thermostat-2025.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Ecobee SmartThermostat",
+      "usageCount": 1,
+      "files": [
+        "content/best-smart-thermostat-2025.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Honeywell T9",
+      "usageCount": 1,
+      "files": [
+        "content/best-smart-thermostat-2025.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Logitech C920",
+      "usageCount": 1,
+      "files": [
+        "content/best-webcam-for-streaming.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Razer Kiyo",
+      "usageCount": 1,
+      "files": [
+        "content/best-webcam-for-streaming.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Elgato Facecam",
+      "usageCount": 1,
+      "files": [
+        "content/best-webcam-for-streaming.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Xiaomi Mi M365",
+      "usageCount": 1,
+      "files": [
+        "content/electric-scooter-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Segway Ninebot ES2",
+      "usageCount": 1,
+      "files": [
+        "content/electric-scooter-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Razor E Prime III",
+      "usageCount": 1,
+      "files": [
+        "content/electric-scooter-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Oral-B Pro 1000",
+      "usageCount": 1,
+      "files": [
+        "content/electric-toothbrush-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Philips Sonicare",
+      "usageCount": 1,
+      "files": [
+        "content/electric-toothbrush-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Fairywill Sonic",
+      "usageCount": 1,
+      "files": [
+        "content/electric-toothbrush-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Steelcase Leap",
+      "usageCount": 2,
+      "files": [
+        "content/ergonomic-office-chair-review.mdx",
+        "content/home-office-setup-guide.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Herman Miller Aeron",
+      "usageCount": 2,
+      "files": [
+        "content/ergonomic-office-chair-review.mdx",
+        "content/home-office-setup-guide.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Humanscale Freedom",
+      "usageCount": 1,
+      "files": [
+        "content/ergonomic-office-chair-review.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Fitbit Charge 5",
+      "usageCount": 1,
+      "files": [
+        "content/fitness-tracker-vs-smartwatch.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Apple Watch SE",
+      "usageCount": 1,
+      "files": [
+        "content/fitness-tracker-vs-smartwatch.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Garmin Vivosmart 4",
+      "usageCount": 1,
+      "files": [
+        "content/fitness-tracker-vs-smartwatch.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "IKEA Markus",
+      "usageCount": 1,
+      "files": [
+        "content/home-office-setup-guide.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "portable power",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "camping",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "battery",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Jackery",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "power station",
+      "usageCount": 1,
+      "files": [
+        "content/jackery-300-vs-500.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Redragon K552",
+      "usageCount": 1,
+      "files": [
+        "content/mechanical-keyboard-under-50.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Corsair K63",
+      "usageCount": 1,
+      "files": [
+        "content/mechanical-keyboard-under-50.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Logitech G413",
+      "usageCount": 1,
+      "files": [
+        "content/mechanical-keyboard-under-50.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Hugger Mugger Zafu Meditation Cushion",
+      "usageCount": 2,
+      "files": [
+        "content/meditation-cushion-beginners.mdx",
+        "content/meditation-cushion-beginners.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Peace Yoga Crescent Meditation Cushion",
+      "usageCount": 2,
+      "files": [
+        "content/meditation-cushion-beginners.mdx",
+        "content/meditation-cushion-beginners.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Florensi Meditation Cushion Set",
+      "usageCount": 2,
+      "files": [
+        "content/meditation-cushion-beginners.mdx",
+        "content/meditation-cushion-beginners.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "NOCO Boost Plus GB40",
+      "usageCount": 2,
+      "files": [
+        "content/portable-car-jump-starter.mdx",
+        "content/portable-car-jump-starter.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Clore Automotive Jump-N-Carry JNC660",
+      "usageCount": 2,
+      "files": [
+        "content/portable-car-jump-starter.mdx",
+        "content/portable-car-jump-starter.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Hulkman Alpha85 Jump Starter",
+      "usageCount": 2,
+      "files": [
+        "content/portable-car-jump-starter.mdx",
+        "content/portable-car-jump-starter.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Honda EU2200i",
+      "usageCount": 1,
+      "files": [
+        "content/portable-generator-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Generac GP3000i",
+      "usageCount": 1,
+      "files": [
+        "content/portable-generator-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "WEN 56380i",
+      "usageCount": 1,
+      "files": [
+        "content/portable-generator-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "WD My Passport",
+      "usageCount": 1,
+      "files": [
+        "content/portable-hard-drive-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Seagate Backup Plus",
+      "usageCount": 1,
+      "files": [
+        "content/portable-hard-drive-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Toshiba Canvio Advance",
+      "usageCount": 1,
+      "files": [
+        "content/portable-hard-drive-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "ASUS ZenScreen MB16AC",
+      "usageCount": 1,
+      "files": [
+        "content/portable-monitor-for-laptop.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "HP E14 G4",
+      "usageCount": 1,
+      "files": [
+        "content/portable-monitor-for-laptop.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Lepow Z1",
+      "usageCount": 1,
+      "files": [
+        "content/portable-monitor-for-laptop.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "HAPPRUN H1",
+      "usageCount": 1,
+      "files": [
+        "content/portable-projector-review.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "PVO Mini Projector",
+      "usageCount": 1,
+      "files": [
+        "content/portable-projector-review.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Vamvo L4600",
+      "usageCount": 1,
+      "files": [
+        "content/portable-projector-review.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "EcoFlow River 2",
+      "usageCount": 2,
+      "files": [
+        "content/portable-solar-generator-reviews.mdx",
+        "content/power-station-for-camping.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Bluetti AC200MAX",
+      "usageCount": 1,
+      "files": [
+        "content/portable-solar-generator-reviews.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Goal Zero Yeti 1000",
+      "usageCount": 1,
+      "files": [
+        "content/portable-solar-generator-reviews.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Ring Video Doorbell",
+      "usageCount": 1,
+      "files": [
+        "content/smart-doorbell-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Nest Hello",
+      "usageCount": 1,
+      "files": [
+        "content/smart-doorbell-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Arlo Video Doorbell",
+      "usageCount": 1,
+      "files": [
+        "content/smart-doorbell-comparison.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Amazon Echo Dot",
+      "usageCount": 1,
+      "files": [
+        "content/smart-home-starter-kit.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Google Nest Mini",
+      "usageCount": 1,
+      "files": [
+        "content/smart-home-starter-kit.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Philips Hue Starter",
+      "usageCount": 1,
+      "files": [
+        "content/smart-home-starter-kit.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Audio-Technica ATR2100x",
+      "usageCount": 1,
+      "files": [
+        "content/usb-microphone-for-podcasting.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Blue Yeti",
+      "usageCount": 1,
+      "files": [
+        "content/usb-microphone-for-podcasting.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Rode PodMic",
+      "usageCount": 1,
+      "files": [
+        "content/usb-microphone-for-podcasting.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Belkin Boost Up",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-charging-pad-review.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Anker PowerWave",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-charging-pad-review.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Samsung Wireless Charger",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-charging-pad-review.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Logitech MK545",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-keyboard-and-mouse-combo.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Microsoft Sculpt",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-keyboard-and-mouse-combo.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Corsair K63 Wireless",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-keyboard-and-mouse-combo.mdx"
+      ],
+      "csvStatus": "missing",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Logitech G Pro X",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-mouse-for-gaming.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Razer DeathAdder V3",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-mouse-for-gaming.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "SteelSeries Rival 650",
+      "usageCount": 1,
+      "files": [
+        "content/wireless-mouse-for-gaming.mdx"
+      ],
+      "hasAsin": false,
+      "csvStatus": "pending",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Logitech MX Master 3S",
+      "usageCount": 2,
+      "files": [
+        "content/wireless-mouse-large-hands.mdx",
+        "content/wireless-mouse-large-hands.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Razer Basilisk X Hyperspeed",
+      "usageCount": 2,
+      "files": [
+        "content/wireless-mouse-large-hands.mdx",
+        "content/wireless-mouse-large-hands.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    },
+    {
+      "productName": "Microsoft Ergonomic Mouse",
+      "usageCount": 2,
+      "files": [
+        "content/wireless-mouse-large-hands.mdx",
+        "content/wireless-mouse-large-hands.mdx"
+      ],
+      "hasAsin": true,
+      "csvStatus": "verified",
+      "inlineAsins": []
+    }
+  ]
+}

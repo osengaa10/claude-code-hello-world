@@ -1,0 +1,363 @@
+INVALID/DEAD ASINS
+==================
+
+Product: Anker PowerCore 10000
+ASIN: B0D5CLSMFB
+Article: best-budget-power-bank-2025
+Status: 405
+Error: Product not found
+
+Product: RAVPower 20000
+ASIN: B0936GZ7H3
+Article: best-budget-power-bank-2025
+Status: 405
+Error: Product not found
+
+Product: Aukey 10000mAh
+ASIN: B01F8IRIN0
+Article: best-budget-power-bank-2025
+Status: 405
+Error: Product not found
+
+Product: Jackery Explorer 300
+ASIN: B082TMBYR6
+Article: jackery-300-vs-500-comparison
+Status: 405
+Error: Product not found
+
+Product: Jackery Explorer 500
+ASIN: B07SM5HBK1
+Article: jackery-300-vs-500-comparison
+Status: 405
+Error: Product not found
+
+Product: Goal Zero Yeti 400
+ASIN: B0CRD8CVD8
+Article: power-station-for-camping
+Status: 405
+Error: Product not found
+
+Product: EcoFlow River 2
+ASIN: B0BVLPGS79
+Article: portable-solar-generator-reviews
+Status: 405
+Error: Product not found
+
+Product: Bluetti AC200MAX
+ASIN: B0CLGZB3L6
+Article: portable-solar-generator-reviews
+Status: 405
+Error: Product not found
+
+Product: Goal Zero Yeti 1000
+ASIN: B096ST3VMS
+Article: portable-solar-generator-reviews
+Status: 405
+Error: Product not found
+
+Product: Sony WF-C500
+ASIN: B0D9R4GYTN
+Article: best-earbuds-small-ear-canals
+Status: 405
+Error: Product not found
+
+Product: Jabra Elite 3
+ASIN: B08YRLWZLQ
+Article: best-earbuds-small-ear-canals
+Status: 405
+Error: Product not found
+
+Product: JLab Audio JBuds Air
+ASIN: B07TQPZQ1R
+Article: best-earbuds-small-ear-canals
+Status: 405
+Error: Product not found
+
+Product: Hugger Mugger Zafu Meditation Cushion
+ASIN: B0000AXD9Y
+Article: meditation-cushion-beginners
+Status: 405
+Error: Product not found
+
+Product: Peace Yoga Crescent Meditation Cushion
+ASIN: B07QMQY9R8
+Article: meditation-cushion-beginners
+Status: 405
+Error: Product not found
+
+Product: Florensi Meditation Cushion Set
+ASIN: B083TQHG8X
+Article: meditation-cushion-beginners
+Status: 405
+Error: Product not found
+
+Product: NOCO Boost Plus GB40
+ASIN: B015TKUPIC
+Article: portable-car-jump-starter
+Status: 405
+Error: Product not found
+
+Product: Clore Automotive Jump-N-Carry JNC660
+ASIN: B000JHN0MS
+Article: portable-car-jump-starter
+Status: 405
+Error: Product not found
+
+Product: Hulkman Alpha85 Jump Starter
+ASIN: B08M41FX48
+Article: portable-car-jump-starter
+Status: 405
+Error: Product not found
+
+Product: Logitech MX Master 3S
+ASIN: B09HM94VDS
+Article: wireless-mouse-large-hands
+Status: 405
+Error: Product not found
+
+Product: Razer Basilisk X Hyperspeed
+ASIN: B07YPBQSCK
+Article: wireless-mouse-large-hands
+Status: 405
+Error: Product not found
+
+Product: Microsoft Ergonomic Mouse
+ASIN: B07S395RWD
+Article: wireless-mouse-large-hands
+Status: 405
+Error: Product not found
+
+Product: ASUS VA24EHE 24-inch Monitor
+ASIN: B08LCQSC1J
+Article: best-computer-monitor-small-desk
+Status: 405
+Error: Product not found
+
+Product: LG 24MK430H-B 24-Inch Monitor
+ASIN: B07PGL2WVS
+Article: best-computer-monitor-small-desk
+Status: 405
+Error: Product not found
+
+Product: Dell S2421DS 24-Inch QHD Monitor
+ASIN: B08G14DP7L
+Article: best-computer-monitor-small-desk
+Status: 405
+Error: Product not found
+
+Product: Logitech MX Keys
+ASIN: B07S92QBCX
+Article: best-keyboard-quiet-typing
+Status: 405
+Error: Product not found
+
+Product: Apple Magic Keyboard with Touch ID
+ASIN: B092BCWTS8
+Article: best-keyboard-quiet-typing
+Status: 405
+Error: Product not found
+
+Product: Keychron K3 Low Profile
+ASIN: B098YHBQ3T
+Article: best-keyboard-quiet-typing
+Status: 405
+Error: Product not found
+
+Product: Nest Learning
+ASIN: B0131RG6VK
+Article: best-smart-thermostat-2025
+Status: 405
+Error: Product not found
+
+Product: Ecobee SmartThermostat
+ASIN: B07NQT85FC
+Article: best-smart-thermostat-2025
+Status: 405
+Error: Product not found
+
+Product: Honeywell T9
+ASIN: B07BS2XHVD
+Article: best-smart-thermostat-2025
+Status: 405
+Error: Product not found
+
+Product: Samsung T7
+ASIN: B0874XN4D8
+Article: best-external-ssd-2025
+Status: 405
+Error: Product not found
+
+Product: SanDisk Extreme Pro
+ASIN: B08GTYFC37
+Article: best-external-ssd-2025
+Status: 405
+Error: Product not found
+
+Product: Crucial X8
+ASIN: B07YD5P6ZQ
+Article: best-external-ssd-2025
+Status: 405
+Error: Product not found
+
+Product: Garmin Dash Cam 66W
+ASIN: B07RCKNJ6N
+Article: best-dash-cam-2025
+Status: 405
+Error: Product not found
+
+Product: Nextbase 622GW
+ASIN: B088X7K9CN
+Article: best-dash-cam-2025
+Status: 405
+Error: Product not found
+
+Product: Viofo A129 Pro Duo
+ASIN: B07T5T7PRR
+Article: best-dash-cam-2025
+Status: 405
+Error: Product not found
+
+Product: SteelSeries Arctis 7
+ASIN: B07FZVXS8H
+Article: mechanical-keyboard-under-50
+Status: 405
+Error: Product not found
+
+Product: HyperX Cloud II
+ASIN: B00SAYCXWG
+Article: mechanical-keyboard-under-50
+Status: 405
+Error: Product not found
+
+Product: Razer BlackShark V2
+ASIN: B0876Z5FJZ
+Article: mechanical-keyboard-under-50
+Status: 405
+Error: Product not found
+
+Product: Redragon K552
+ASIN: pending
+Article: mechanical-keyboard-under-50
+Status: Error
+Error: Not validated
+
+Product: Corsair K63
+ASIN: pending
+Article: mechanical-keyboard-under-50
+Status: Error
+Error: Not validated
+
+Product: Logitech G413
+ASIN: pending
+Article: mechanical-keyboard-under-50
+Status: Error
+Error: Not validated
+
+Product: Audio-Technica ATR2100x
+ASIN: pending
+Article: usb-microphone-for-podcasting
+Status: Error
+Error: Not validated
+
+Product: Blue Yeti
+ASIN: pending
+Article: usb-microphone-for-podcasting
+Status: Error
+Error: Not validated
+
+Product: Rode PodMic
+ASIN: pending
+Article: usb-microphone-for-podcasting
+Status: Error
+Error: Not validated
+
+Product: Logitech C920
+ASIN: pending
+Article: best-webcam-for-streaming
+Status: Error
+Error: Not validated
+
+Product: Razer Kiyo
+ASIN: pending
+Article: best-webcam-for-streaming
+Status: Error
+Error: Not validated
+
+Product: Elgato Facecam
+ASIN: pending
+Article: best-webcam-for-streaming
+Status: Error
+Error: Not validated
+
+Product: Belkin Boost Up
+ASIN: pending
+Article: wireless-charging-pad-review
+Status: Error
+Error: Not validated
+
+Product: Anker PowerWave
+ASIN: pending
+Article: wireless-charging-pad-review
+Status: Error
+Error: Not validated
+
+Product: Samsung Wireless Charger
+ASIN: pending
+Article: wireless-charging-pad-review
+Status: Error
+Error: Not validated
+
+Product: Steelcase Leap
+ASIN: pending
+Article: best-office-chair-under-200
+Status: Error
+Error: Not validated
+
+Product: Herman Miller Aeron
+ASIN: pending
+Article: best-office-chair-under-200
+Status: Error
+Error: Not validated
+
+Product: IKEA Markus
+ASIN: pending
+Article: best-office-chair-under-200
+Status: Error
+Error: Not validated
+
+Product: Corsair MM300
+ASIN: pending
+Article: best-gaming-mouse-pad
+Status: Error
+Error: Not validated
+
+Product: SteelSeries QcK
+ASIN: pending
+Article: best-gaming-mouse-pad
+Status: Error
+Error: Not validated
+
+Product: Razer Goliathus
+ASIN: pending
+Article: best-gaming-mouse-pad
+Status: Error
+Error: Not validated
+
+Product: Logitech G Pro X
+ASIN: pending
+Article: wireless-mouse-for-gaming
+Status: Error
+Error: Not validated
+
+Product: Razer DeathAdder V3
+ASIN: pending
+Article: wireless-mouse-for-gaming
+Status: Error
+Error: Not validated
+
+Product: SteelSeries Rival 650
+ASIN: pending
+Article: wireless-mouse-for-gaming
+Status: Error
+Error: Not validated
+

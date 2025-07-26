@@ -1,0 +1,851 @@
+{
+  "total": 60,
+  "withUrls": 6,
+  "withAsins": 33,
+  "correctAsins": 6,
+  "incorrectAsins": 0,
+  "validAsins": 0,
+  "invalidAsins": 39,
+  "rateLimited": 0,
+  "corrections": [],
+  "validationResults": [
+    {
+      "productName": "Anker PowerCore 10000",
+      "lineNumber": 2,
+      "asin": "B0D5CLSMFB",
+      "affiliateUrl": "https://www.amazon.com/Anker-Travel-Ready-Technology-High-Speed-Output%EF%BC%88Black%EF%BC%89%EF%BC%8C1pack/dp/B0D5CLSMFB?th=1&linkCode=ll1&tag=unbiasedtechr-20&linkId=766c9f247abb0bf9c2888eaeec904c55&language=en_US&ref_=as_li_ss_tl",
+      "validation": {
+        "asin": "B0D5CLSMFB",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "power-banks",
+      "article": "best-budget-power-bank-2025"
+    },
+    {
+      "productName": "RAVPower 20000",
+      "lineNumber": 3,
+      "asin": "B0936GZ7H3",
+      "affiliateUrl": "https://www.amazon.com/Portable-36800mAh-Tri-Outport-External-Compatible/dp/B0936GZ7H3?crid=2YACUXYGXP44H&dib=eyJ2IjoiMSJ9.OsKmOQR_qj0PR-rOv61QmctbVw5HWiOFfhmwaEOVZHNjWtyZN4yJbgzalaGtGFZckh7PCs8u_eo4LL4dIf7tRoHkMuOcdNIzDbTDtTNNrWMHlYcKEXK6ngoMkWothinMCpCVg8I44KKTuXo46SDmk4cjrvhPqlAh-MepdE5CaSe2dPTV47NCT2MORH6Vd7R1kEtQsH4Ofyo-qkCzSJ3ildODrhfH6OnWUPmLH5PG5ok.I17NR4AioLmKOYgtygUJkThNh7o2aiIb-O4JAo23gJU&dib_tag=se&keywords=RAVPower%2B20000&qid=1753552417&sprefix=ravpower%2B20000%2Caps%2C132&sr=8-1&th=1&linkCode=ll1&tag=unbiasedtechr-20&linkId=81dc193619ba22221fe2e788b4888790&language=en_US&ref_=as_li_ss_tl",
+      "validation": {
+        "asin": "B0936GZ7H3",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "power-banks",
+      "article": "best-budget-power-bank-2025"
+    },
+    {
+      "productName": "Aukey 10000mAh",
+      "lineNumber": 4,
+      "asin": "B01F8IRIN0",
+      "affiliateUrl": "B01F8IRIN0",
+      "validation": {
+        "asin": "B01F8IRIN0",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "power-banks",
+      "article": "best-budget-power-bank-2025"
+    },
+    {
+      "productName": "Jackery Explorer 300",
+      "lineNumber": 5,
+      "asin": "B082TMBYR6",
+      "affiliateUrl": "https://www.amazon.com/Jackery-Portable-Explorer-Generator-Optional/dp/B082TMBYR6?crid=WPAGJO391GP2&dib=eyJ2IjoiMSJ9.mJsm5u1STNDf24ixnjqIb1HR99mWPs0phiPj-A6819oqynM5EhndwX-C6xJVr_jd_qiC8orFlLXpJlMp0HmBgru7PrPJec3f5sm90Lay9-xIGwMebexPL3l3rlUO9jjGXbPfi7LJI1NGhzo07CQe_4efg_vstZLdTBlKIQ-jGYbva16opDkVFfwqGRlQ8nXvlw-0wsAz6oxDvNfeWNEFdycFJ4_VjOxV_XjzjuojptM.MPmCPjXj-QvoeL6Oab8CFYO43BQdcZntv9OfYbs01hU&dib_tag=se&keywords=Jackery%2BExplorer%2B300&qid=1753552512&sprefix=aukey%2Bpower%2Bbank%2Caps%2C157&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll1&tag=unbiasedtechr-20&linkId=11a6eb07de05183426564ef0f9802d6b&language=en_US&ref_=as_li_ss_tl",
+      "validation": {
+        "asin": "B082TMBYR6",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "power-stations",
+      "article": "jackery-300-vs-500-comparison"
+    },
+    {
+      "productName": "Jackery Explorer 500",
+      "lineNumber": 6,
+      "asin": "B07SM5HBK1",
+      "affiliateUrl": "https://www.amazon.com/Jackery-Portable-Solar-Ready-Generator-Emergency/dp/B07SM5HBK1?crid=1LZBVDAY4RKO2&dib=eyJ2IjoiMSJ9.IVh557SQd55ntr2-zyaT-SdtsA5xV44f9t4d25PWQKPO906jroaxzhZFxpZ3oErm6R-mVYL6KtYVsLGyx33knTGcoey-Xs0hvfDUZZ0hJbA56NrsTeYugQytEzABu1dAN35MD7t-1jpV2zEwLYETadZtM1YHV6EyzmyFk2hLNy-yacnpI8BiwdQDm739PtYHmuIlN3porlXbYvnGm0Mwe8hDcFdx5jvHOt9Np6jbPjo.zSVb2jxFnQdwJSbBp_twE6rHAt0KBd4WVYsTEPjwIms&dib_tag=se&keywords=Jackery%2BExplorer%2B500&qid=1753552542&sprefix=jackery%2Bexplorer%2B500%2Caps%2C166&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll1&tag=unbiasedtechr-20&linkId=fc73fcaef80e3217eb4325244e9e1c69&language=en_US&ref_=as_li_ss_tl",
+      "validation": {
+        "asin": "B07SM5HBK1",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "power-stations",
+      "article": "jackery-300-vs-500-comparison"
+    },
+    {
+      "productName": "Goal Zero Yeti 400",
+      "lineNumber": 7,
+      "asin": "B0CRD8CVD8",
+      "affiliateUrl": "https://www.amazon.com/Goal-Zero-resistant-Dustproof-Tailgating/dp/B0CRD8CVD8?crid=X852MGBQP7PZ&dib=eyJ2IjoiMSJ9.kcYSkNUC0rxukwRrlRg7I920HKKTt_prEsTek1Qhirdw1T5uBoSf5xAqsviiliCNTer13OcD4L8Lzymq-1wV_BghE1Bg0AZtoi0nioo7ipywSKY8pS_ZX9qLK5bTs_AbD2pGMOeFMQoc3hsMUTX3Xhe2MhY-QAS1yHHJU1inyCXl1_D0ShOcFBVakVMolug-zezBWZ7fJJAS5jQVNPYkjaDEapF68NZw4OlFJdJSjMY.cFmLKkEUHJM_3445Z_ObMSxX2ADM66sEF_g3JFq4aZ8&dib_tag=se&keywords=Goal%2BZero%2BYeti%2B400&qid=1753552635&sprefix=goal%2Bzero%2Byeti%2B400%2Caps%2C196&sr=8-1&th=1&linkCode=ll1&tag=unbiasedtechr-20&linkId=0a5e4bd312bb48b5ebf52cef35410b68&language=en_US&ref_=as_li_ss_tl",
+      "validation": {
+        "asin": "B0CRD8CVD8",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "power-stations",
+      "article": "power-station-for-camping"
+    },
+    {
+      "productName": "EcoFlow River 2",
+      "lineNumber": 8,
+      "asin": "B0BVLPGS79",
+      "affiliateUrl": "B0BVLPGS79",
+      "validation": {
+        "asin": "B0BVLPGS79",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "power-stations",
+      "article": "portable-solar-generator-reviews"
+    },
+    {
+      "productName": "Bluetti AC200MAX",
+      "lineNumber": 9,
+      "asin": "B0CLGZB3L6",
+      "affiliateUrl": "B0CLGZB3L6",
+      "validation": {
+        "asin": "B0CLGZB3L6",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "power-stations",
+      "article": "portable-solar-generator-reviews"
+    },
+    {
+      "productName": "Goal Zero Yeti 1000",
+      "lineNumber": 10,
+      "asin": "B096ST3VMS",
+      "affiliateUrl": "B096ST3VMS",
+      "validation": {
+        "asin": "B096ST3VMS",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "power-stations",
+      "article": "portable-solar-generator-reviews"
+    },
+    {
+      "productName": "Sony WF-C500",
+      "lineNumber": 11,
+      "asin": "B0D9R4GYTN",
+      "affiliateUrl": "B0D9R4GYTN",
+      "validation": {
+        "asin": "B0D9R4GYTN",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "audio",
+      "article": "best-earbuds-small-ear-canals"
+    },
+    {
+      "productName": "Jabra Elite 3",
+      "lineNumber": 12,
+      "asin": "B08YRLWZLQ",
+      "affiliateUrl": "B08YRLWZLQ",
+      "validation": {
+        "asin": "B08YRLWZLQ",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "audio",
+      "article": "best-earbuds-small-ear-canals"
+    },
+    {
+      "productName": "JLab Audio JBuds Air",
+      "lineNumber": 13,
+      "asin": "B07TQPZQ1R",
+      "affiliateUrl": "B07TQPZQ1R",
+      "validation": {
+        "asin": "B07TQPZQ1R",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "audio",
+      "article": "best-earbuds-small-ear-canals"
+    },
+    {
+      "productName": "Hugger Mugger Zafu Meditation Cushion",
+      "lineNumber": 14,
+      "asin": "B0000AXD9Y",
+      "affiliateUrl": "B0000AXD9Y",
+      "validation": {
+        "asin": "B0000AXD9Y",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "health",
+      "article": "meditation-cushion-beginners"
+    },
+    {
+      "productName": "Peace Yoga Crescent Meditation Cushion",
+      "lineNumber": 15,
+      "asin": "B07QMQY9R8",
+      "affiliateUrl": "B07QMQY9R8",
+      "validation": {
+        "asin": "B07QMQY9R8",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "health",
+      "article": "meditation-cushion-beginners"
+    },
+    {
+      "productName": "Florensi Meditation Cushion Set",
+      "lineNumber": 16,
+      "asin": "B083TQHG8X",
+      "affiliateUrl": "B083TQHG8X",
+      "validation": {
+        "asin": "B083TQHG8X",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "health",
+      "article": "meditation-cushion-beginners"
+    },
+    {
+      "productName": "NOCO Boost Plus GB40",
+      "lineNumber": 17,
+      "asin": "B015TKUPIC",
+      "affiliateUrl": "B015TKUPIC",
+      "validation": {
+        "asin": "B015TKUPIC",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "automotive",
+      "article": "portable-car-jump-starter"
+    },
+    {
+      "productName": "Clore Automotive Jump-N-Carry JNC660",
+      "lineNumber": 18,
+      "asin": "B000JHN0MS",
+      "affiliateUrl": "B000JHN0MS",
+      "validation": {
+        "asin": "B000JHN0MS",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "automotive",
+      "article": "portable-car-jump-starter"
+    },
+    {
+      "productName": "Hulkman Alpha85 Jump Starter",
+      "lineNumber": 19,
+      "asin": "B08M41FX48",
+      "affiliateUrl": "https://www.amazon.com/dp/B08M41FX48?th=1&linkCode=ll1&tag=unbiasedtechr-20&linkId=9f34330f3c6d0fa76c9a287a1b44d2da&language=en_US&ref_=as_li_ss_tl",
+      "validation": {
+        "asin": "B08M41FX48",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "automotive",
+      "article": "portable-car-jump-starter"
+    },
+    {
+      "productName": "Logitech MX Master 3S",
+      "lineNumber": 20,
+      "asin": "B09HM94VDS",
+      "affiliateUrl": "B09HM94VDS",
+      "validation": {
+        "asin": "B09HM94VDS",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "peripherals",
+      "article": "wireless-mouse-large-hands"
+    },
+    {
+      "productName": "Razer Basilisk X Hyperspeed",
+      "lineNumber": 21,
+      "asin": "B07YPBQSCK",
+      "affiliateUrl": "B07YPBQSCK",
+      "validation": {
+        "asin": "B07YPBQSCK",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "peripherals",
+      "article": "wireless-mouse-large-hands"
+    },
+    {
+      "productName": "Microsoft Ergonomic Mouse",
+      "lineNumber": 22,
+      "asin": "B07S395RWD",
+      "affiliateUrl": "B07S395RWD",
+      "validation": {
+        "asin": "B07S395RWD",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "peripherals",
+      "article": "wireless-mouse-large-hands"
+    },
+    {
+      "productName": "ASUS VA24EHE 24-inch Monitor",
+      "lineNumber": 23,
+      "asin": "B08LCQSC1J",
+      "affiliateUrl": "B08LCQSC1J",
+      "validation": {
+        "asin": "B08LCQSC1J",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "monitors",
+      "article": "best-computer-monitor-small-desk"
+    },
+    {
+      "productName": "LG 24MK430H-B 24-Inch Monitor",
+      "lineNumber": 24,
+      "asin": "B07PGL2WVS",
+      "affiliateUrl": "B07PGL2WVS",
+      "validation": {
+        "asin": "B07PGL2WVS",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "monitors",
+      "article": "best-computer-monitor-small-desk"
+    },
+    {
+      "productName": "Dell S2421DS 24-Inch QHD Monitor",
+      "lineNumber": 25,
+      "asin": "B08G14DP7L",
+      "affiliateUrl": "B08G14DP7L",
+      "validation": {
+        "asin": "B08G14DP7L",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "monitors",
+      "article": "best-computer-monitor-small-desk"
+    },
+    {
+      "productName": "Logitech MX Keys",
+      "lineNumber": 26,
+      "asin": "B07S92QBCX",
+      "affiliateUrl": "B07S92QBCX",
+      "validation": {
+        "asin": "B07S92QBCX",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "peripherals",
+      "article": "best-keyboard-quiet-typing"
+    },
+    {
+      "productName": "Apple Magic Keyboard with Touch ID",
+      "lineNumber": 27,
+      "asin": "B092BCWTS8",
+      "affiliateUrl": "B092BCWTS8",
+      "validation": {
+        "asin": "B092BCWTS8",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "peripherals",
+      "article": "best-keyboard-quiet-typing"
+    },
+    {
+      "productName": "Keychron K3 Low Profile",
+      "lineNumber": 28,
+      "asin": "B098YHBQ3T",
+      "affiliateUrl": "B098YHBQ3T",
+      "validation": {
+        "asin": "B098YHBQ3T",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "peripherals",
+      "article": "best-keyboard-quiet-typing"
+    },
+    {
+      "productName": "Nest Learning",
+      "lineNumber": 29,
+      "asin": "B0131RG6VK",
+      "affiliateUrl": "B0131RG6VK",
+      "validation": {
+        "asin": "B0131RG6VK",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "smart-home",
+      "article": "best-smart-thermostat-2025"
+    },
+    {
+      "productName": "Ecobee SmartThermostat",
+      "lineNumber": 30,
+      "asin": "B07NQT85FC",
+      "affiliateUrl": "B07NQT85FC",
+      "validation": {
+        "asin": "B07NQT85FC",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "smart-home",
+      "article": "best-smart-thermostat-2025"
+    },
+    {
+      "productName": "Honeywell T9",
+      "lineNumber": 31,
+      "asin": "B07BS2XHVD",
+      "affiliateUrl": "B07BS2XHVD",
+      "validation": {
+        "asin": "B07BS2XHVD",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "smart-home",
+      "article": "best-smart-thermostat-2025"
+    },
+    {
+      "productName": "Samsung T7",
+      "lineNumber": 32,
+      "asin": "B0874XN4D8",
+      "affiliateUrl": "B0874XN4D8",
+      "validation": {
+        "asin": "B0874XN4D8",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "storage",
+      "article": "best-external-ssd-2025"
+    },
+    {
+      "productName": "SanDisk Extreme Pro",
+      "lineNumber": 33,
+      "asin": "B08GTYFC37",
+      "affiliateUrl": "B08GTYFC37",
+      "validation": {
+        "asin": "B08GTYFC37",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "storage",
+      "article": "best-external-ssd-2025"
+    },
+    {
+      "productName": "Crucial X8",
+      "lineNumber": 34,
+      "asin": "B07YD5P6ZQ",
+      "affiliateUrl": "B07YD5P6ZQ",
+      "validation": {
+        "asin": "B07YD5P6ZQ",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "storage",
+      "article": "best-external-ssd-2025"
+    },
+    {
+      "productName": "Garmin Dash Cam 66W",
+      "lineNumber": 35,
+      "asin": "B07RCKNJ6N",
+      "affiliateUrl": "B07RCKNJ6N",
+      "validation": {
+        "asin": "B07RCKNJ6N",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "automotive",
+      "article": "best-dash-cam-2025"
+    },
+    {
+      "productName": "Nextbase 622GW",
+      "lineNumber": 36,
+      "asin": "B088X7K9CN",
+      "affiliateUrl": "B088X7K9CN",
+      "validation": {
+        "asin": "B088X7K9CN",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "automotive",
+      "article": "best-dash-cam-2025"
+    },
+    {
+      "productName": "Viofo A129 Pro Duo",
+      "lineNumber": 37,
+      "asin": "B07T5T7PRR",
+      "affiliateUrl": "B07T5T7PRR",
+      "validation": {
+        "asin": "B07T5T7PRR",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "automotive",
+      "article": "best-dash-cam-2025"
+    },
+    {
+      "productName": "SteelSeries Arctis 7",
+      "lineNumber": 38,
+      "asin": "B07FZVXS8H",
+      "affiliateUrl": "B07FZVXS8H",
+      "validation": {
+        "asin": "B07FZVXS8H",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "audio",
+      "article": "mechanical-keyboard-under-50"
+    },
+    {
+      "productName": "HyperX Cloud II",
+      "lineNumber": 39,
+      "asin": "B00SAYCXWG",
+      "affiliateUrl": "B00SAYCXWG",
+      "validation": {
+        "asin": "B00SAYCXWG",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "audio",
+      "article": "mechanical-keyboard-under-50"
+    },
+    {
+      "productName": "Razer BlackShark V2",
+      "lineNumber": 40,
+      "asin": "B0876Z5FJZ",
+      "affiliateUrl": "B0876Z5FJZ",
+      "validation": {
+        "asin": "B0876Z5FJZ",
+        "exists": false,
+        "statusCode": 405,
+        "rateLimited": false,
+        "error": null
+      },
+      "category": "audio",
+      "article": "mechanical-keyboard-under-50"
+    },
+    {
+      "productName": "Redragon K552",
+      "lineNumber": 41,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "peripherals",
+      "article": "mechanical-keyboard-under-50"
+    },
+    {
+      "productName": "Corsair K63",
+      "lineNumber": 42,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "peripherals",
+      "article": "mechanical-keyboard-under-50"
+    },
+    {
+      "productName": "Logitech G413",
+      "lineNumber": 43,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "peripherals",
+      "article": "mechanical-keyboard-under-50"
+    },
+    {
+      "productName": "Audio-Technica ATR2100x",
+      "lineNumber": 44,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "audio",
+      "article": "usb-microphone-for-podcasting"
+    },
+    {
+      "productName": "Blue Yeti",
+      "lineNumber": 45,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "audio",
+      "article": "usb-microphone-for-podcasting"
+    },
+    {
+      "productName": "Rode PodMic",
+      "lineNumber": 46,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "audio",
+      "article": "usb-microphone-for-podcasting"
+    },
+    {
+      "productName": "Logitech C920",
+      "lineNumber": 47,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "cameras",
+      "article": "best-webcam-for-streaming"
+    },
+    {
+      "productName": "Razer Kiyo",
+      "lineNumber": 48,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "cameras",
+      "article": "best-webcam-for-streaming"
+    },
+    {
+      "productName": "Elgato Facecam",
+      "lineNumber": 49,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "cameras",
+      "article": "best-webcam-for-streaming"
+    },
+    {
+      "productName": "Belkin Boost Up",
+      "lineNumber": 50,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "accessories",
+      "article": "wireless-charging-pad-review"
+    },
+    {
+      "productName": "Anker PowerWave",
+      "lineNumber": 51,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "accessories",
+      "article": "wireless-charging-pad-review"
+    },
+    {
+      "productName": "Samsung Wireless Charger",
+      "lineNumber": 52,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "accessories",
+      "article": "wireless-charging-pad-review"
+    },
+    {
+      "productName": "Steelcase Leap",
+      "lineNumber": 53,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "office",
+      "article": "best-office-chair-under-200"
+    },
+    {
+      "productName": "Herman Miller Aeron",
+      "lineNumber": 54,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "office",
+      "article": "best-office-chair-under-200"
+    },
+    {
+      "productName": "IKEA Markus",
+      "lineNumber": 55,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "office",
+      "article": "best-office-chair-under-200"
+    },
+    {
+      "productName": "Corsair MM300",
+      "lineNumber": 56,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "peripherals",
+      "article": "best-gaming-mouse-pad"
+    },
+    {
+      "productName": "SteelSeries QcK",
+      "lineNumber": 57,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "peripherals",
+      "article": "best-gaming-mouse-pad"
+    },
+    {
+      "productName": "Razer Goliathus",
+      "lineNumber": 58,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "peripherals",
+      "article": "best-gaming-mouse-pad"
+    },
+    {
+      "productName": "Logitech G Pro X",
+      "lineNumber": 59,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "peripherals",
+      "article": "wireless-mouse-for-gaming"
+    },
+    {
+      "productName": "Razer DeathAdder V3",
+      "lineNumber": 60,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "peripherals",
+      "article": "wireless-mouse-for-gaming"
+    },
+    {
+      "productName": "SteelSeries Rival 650",
+      "lineNumber": 61,
+      "asin": "pending",
+      "affiliateUrl": "pending",
+      "validation": {
+        "exists": null,
+        "error": "Not validated"
+      },
+      "category": "peripherals",
+      "article": "wireless-mouse-for-gaming"
+    }
+  ],
+  "errors": []
+}

@@ -21,7 +21,7 @@ const PRODUCT_ASINS = {
   
   // Power Stations
   'Jackery Explorer 300': 'B082TMBYR6',
-  'Jackery Explorer 500': 'B084HPQ96Y',
+  'Jackery Explorer 500': 'B07SM5HBK1',
   'Goal Zero Yeti 400': 'B078LY8Q7V',
   'EcoFlow River 2': 'B0BSJBYN1S',
   'Bluetti AC200MAX': 'B08T7QTHQF',

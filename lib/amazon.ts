@@ -41,90 +41,127 @@ export function generateAmazonLink(productName: string, asin?: string): string {
 }
 
 /**
- * Common product ASINs for frequently mentioned items
+ * Product URLs loaded from CSV file at build time
+ * This is populated server-side and passed to client components
  */
-export const PRODUCT_ASINS: Record<string, string> = {
-  // Power Banks
-  'Anker PowerCore 10000': 'B019GJLER8',
-  'RAVPower 20000': 'B019IFIJW8',
-  'Aukey 10000mAh': 'B01F8IRIN0',
-  
-  // Power Stations
-  'Jackery Explorer 300': 'B082TMBYR6',
-  'Jackery Explorer 500': 'B084HPQ96Y',
-  'Goal Zero Yeti 400': 'B078LY8Q7V',
-  'EcoFlow River 2': 'B0BSJBYN1S',
-  'Bluetti AC200MAX': 'B08T7QTHQF',
-  'Goal Zero Yeti 1000': 'B078LYDJPF',
-  
-  // Headphones & Audio
-  'SteelSeries Arctis 7': 'B07FZVXS8H',
-  'HyperX Cloud II': 'B00SAYCXWG',
-  'Razer BlackShark V2': 'B0876Z5FJZ',
-  
-  // VPN Services (redirect to official sites)
-  'ExpressVPN': '',
-  'NordVPN': '',
-  'Surfshark': '',
-  
-  // Kitchen Appliances
-  'Ninja Foodi': 'B07S6443CX',
-  'Cosori Air Fryer': 'B0785N7T8P',
-  'Instant Pot Vortex Plus': 'B08J6W38L7',
-  
-  // Smartphones
-  'OnePlus Nord N20': 'B09VK9Y1DS',
-  'Moto G Power': 'B084D3CTG1',
-  'Samsung Galaxy A53': 'B09SVVNLQN',
-  
-  // TVs
-  'TCL 6-Series': 'B08857ZHY1',
-  'Hisense U6G': 'B08VJ2JLCV',
-  'Roku TV 55R635': 'B08716XNH8',
-  
-  // Drones
-  'DJI Mini 2': 'B08MF3C8S5',
-  'Holy Stone HS720': 'B085KYNG4C',
-  'Potensic D88': 'B085LNLHPG',
-  
-  // Robot Vacuums
-  'Roomba i7+': 'B07GNYDPJ6',
-  'Shark IQ Robot': 'B07WDQYRZY',
-  'Eufy RoboVac 11S': 'B07QLQ8Z5R',
-  
-  // Graphics Cards
-  'RTX 3060': 'B08W8DGK3X',
-  'RTX 4060': 'B0C2SYR3FJ',
-  'GTX 1660 Super': 'B07ZHZL2JB',
-  
-  // Dash Cams
-  'Garmin Dash Cam 66W': 'B07RCKNJ6N',
-  'Nextbase 622GW': 'B088X7K9CN',
-  'Viofo A129 Pro Duo': 'B07T5T7PRR',
-  
-  // SSDs
-  'Samsung T7': 'B0874XN4D8',
-  'SanDisk Extreme Pro': 'B08GTYFC37',
-  'Crucial X8': 'B07YD5P6ZQ',
-  
-  // Smart Home
-  'Nest Learning': 'B0131RG6VK',
-  'Ecobee SmartThermostat': 'B07NQT85FC',
-  'Honeywell T9': 'B07BS2XHVD',
-  
-  // New Article Products - Earbuds
-  'Sony WF-C500': 'B09CFP6J6D', // Verified: Black variant on Amazon
-  'Jabra Elite 3': 'B09B468VKX', // Verified: Navy variant on Amazon
-  'JLab Audio JBuds Air': 'B07HGL3J31', // Verified: True Wireless Signature Bluetooth Earbuds
-  
-  // New Article Products - Meditation
-  'Hugger Mugger Zafu Meditation Cushion': 'B0000AXD9Y',
-  'Peace Yoga Crescent Meditation Cushion': 'B07QMQY9R8',
-  'Florensi Meditation Cushion Set': 'B083TQHG8X',
-};
+let PRODUCT_URLS: Record<string, string> = {};
+
+// Initialize PRODUCT_URLS based on environment
+async function initializeProductUrls() {
+  if (typeof window === 'undefined') {
+    // Server-side: Load from CSV
+    try {
+      const { generateProductUrls } = await import('./csv-loader');
+      PRODUCT_URLS = generateProductUrls();
+      console.log(`Loaded ${Object.keys(PRODUCT_URLS).length} product URLs from CSV`);
+    } catch (error) {
+      console.error('Failed to load product URLs from CSV:', error);
+      // Fallback to essential ASINs (for backward compatibility)
+      PRODUCT_URLS = {
+        // New articles with verified ASINs
+        'Sony WF-C500': 'B094C4VDJZ',
+        'Jabra Elite 3': 'B08YRLWZLQ', 
+        'JLab Audio JBuds Air': 'B07TQPZQ1R',
+        'Hugger Mugger Zafu Meditation Cushion': 'B0000AXD9Y',
+        'Peace Yoga Crescent Meditation Cushion': 'B07QMQY9R8',
+        'Florensi Meditation Cushion Set': 'B083TQHG8X',
+        'NOCO Boost Plus GB40': 'B015TKUPIC',
+        'Clore Automotive Jump-N-Carry JNC660': 'B000JHN0MS',
+        'Hulkman Alpha85 Jump Starter': 'B07JBQZPX8',
+        'Logitech MX Master 3S': 'B09HM94VDS',
+        'Razer Basilisk X Hyperspeed': 'B07YPBQSCK',
+        'Microsoft Ergonomic Mouse': 'B07S395RWD',
+        'ASUS VA24EHE 24-inch Monitor': 'B08LCQSC1J',
+        'LG 24MK430H-B 24-Inch Monitor': 'B07PGL2WVS',
+        'Dell S2421DS 24-Inch QHD Monitor': 'B08G14DP7L',
+        // Power stations and accessories
+        'Jackery Explorer 300': 'B082TMBYR6',
+        'Jackery Explorer 500': 'B07SM5HBK1',
+        'Goal Zero Yeti 400': 'B078LY8Q7V',
+        'EcoFlow River 2': 'B0BSJBYN1S',
+        'Anker PowerCore 10000': 'B019GJLER8',
+        // Smart home
+        'Nest Learning': 'B0131RG6VK',
+        'Ecobee SmartThermostat': 'B07NQT85FC',
+        'Honeywell T9': 'B07BS2XHVD',
+      };
+    }
+  } else {
+    // Client-side: Use fallback (server should have already loaded)
+    // This shouldn't normally be needed since components get server-rendered
+  }
+}
+
+// Initialize on module load (server-side only)
+if (typeof window === 'undefined') {
+  initializeProductUrls();
+}
 
 /**
- * Get Amazon link for a product
+ * Get all product URLs (for use in components)
+ */
+export function getProductUrls(): Record<string, string> {
+  return PRODUCT_URLS;
+}
+
+/**
+ * Get all product ASINs (for backward compatibility)
+ */
+export function getProductAsins(): Record<string, string> {
+  const asins: Record<string, string> = {};
+  Object.entries(PRODUCT_URLS).forEach(([productName, url]) => {
+    if (url.startsWith('B') && url.length === 10) {
+      // It's an ASIN, use directly
+      asins[productName] = url;
+    } else {
+      // Extract ASIN from URL
+      const match = url.match(/\/dp\/([B0-9A-Z]{10})/);
+      if (match) {
+        asins[productName] = match[1];
+      }
+    }
+  });
+  return asins;
+}
+
+/**
+ * Set product URLs (for testing or manual override)
+ */
+export function setProductUrls(urls: Record<string, string>): void {
+  PRODUCT_URLS = urls;
+}
+
+/**
+ * Set product ASINs (for backward compatibility)
+ */
+export function setProductAsins(asins: Record<string, string>): void {
+  PRODUCT_URLS = asins;
+}
+
+/**
+ * Cache for invalid ASINs to avoid repeated failures
+ */
+const INVALID_ASINS = new Set<string>();
+
+/**
+ * Mark an ASIN as invalid (for client-side failure tracking)
+ */
+export function markAsinInvalid(asin: string): void {
+  if (asin && asin.match(/^B[0-9A-Z]{9}$/)) {
+    INVALID_ASINS.add(asin);
+    console.warn(`ASIN marked as invalid: ${asin}`);
+  }
+}
+
+/**
+ * Check if an ASIN is known to be invalid
+ */
+export function isAsinMarkedInvalid(asin: string): boolean {
+  return INVALID_ASINS.has(asin);
+}
+
+/**
+ * Get Amazon link for a product with fallback handling
  */
 export function getProductAmazonLink(productName: string): string {
   if (!productName || typeof productName !== 'string') {
@@ -132,6 +169,28 @@ export function getProductAmazonLink(productName: string): string {
     return `https://amazon.com/?tag=${AFFILIATE_TAG}`;
   }
   
-  const asin = PRODUCT_ASINS[productName];
-  return generateAmazonLink(productName, asin);
+  const urlOrAsin = PRODUCT_URLS[productName];
+  
+  if (!urlOrAsin) {
+    console.warn(`No affiliate URL found for product: ${productName}, falling back to search`);
+    return generateAmazonSearchLink(productName);
+  }
+  
+  // If it's a full URL, return it directly (these are usually reliable)
+  if (urlOrAsin.startsWith('https://')) {
+    return urlOrAsin;
+  }
+  
+  // If it's an ASIN, check if it's marked as invalid
+  if (urlOrAsin.startsWith('B') && urlOrAsin.length === 10) {
+    if (isAsinMarkedInvalid(urlOrAsin)) {
+      console.warn(`Using search fallback for invalid ASIN ${urlOrAsin} (product: ${productName})`);
+      return generateAmazonSearchLink(productName);
+    }
+    return generateAmazonProductLink(urlOrAsin);
+  }
+  
+  // Fallback to search for any other format
+  console.warn(`Unknown affiliate URL format for ${productName}: ${urlOrAsin}, falling back to search`);
+  return generateAmazonSearchLink(productName);
 }
